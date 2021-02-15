@@ -1,3 +1,4 @@
+---
 title: Docker-安装&基础管理
 author: 饼铛
 cover: /images/img-163.png
@@ -6,6 +7,7 @@ tags:
   - Web集群
 categories:
   - Web集群
+abbrlink: 36620
 date: 2020-07-16 00:05:00
 ---
 ## 1.Docker介绍

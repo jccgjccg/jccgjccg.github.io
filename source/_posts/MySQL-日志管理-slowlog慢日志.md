@@ -1,3 +1,4 @@
+---
 title: 'MySQL-日志管理[slowlog慢日志]'
 author: 饼铛
 cover: /images/img-71.png
@@ -6,6 +7,7 @@ tags:
   - 日志管理
 categories:
   - DBA
+abbrlink: 15274
 date: 2020-04-16 13:14:00
 ---
 ### 1. 优化相关日志-slowlog

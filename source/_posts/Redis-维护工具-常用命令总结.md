@@ -1,3 +1,4 @@
+---
 title: Redis-维护工具&常用命令总结
 author: 饼铛
 cover: /images/img-100.png
@@ -7,6 +8,7 @@ tags:
   - tools
 categories:
   - DBA
+abbrlink: 60768
 date: 2020-05-13 17:27:00
 ---
 ## 1.Redis 集群常用命令

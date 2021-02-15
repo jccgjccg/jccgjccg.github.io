@@ -1,3 +1,4 @@
+---
 title: JumpServer-1.5.4堡垒机部署
 author: 饼铛
 cover: /images/img-123.png
@@ -6,6 +7,7 @@ tags:
   - 堡垒机
   - Web集群
 categories: []
+abbrlink: 31111
 date: 2020-05-19 02:44:00
 ---
 ## 0.环境准备：

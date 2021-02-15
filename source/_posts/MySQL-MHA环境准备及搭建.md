@@ -1,3 +1,4 @@
+---
 title: MySQL-MHA环境准备_搭建_故障恢复
 author: 饼铛
 cover: /images/img-71.png
@@ -8,6 +9,7 @@ tags:
   - 高可用
 categories:
   - DBA
+abbrlink: 36673
 date: 2020-04-28 10:39:00
 ---
 ## 0.需要用到的软件包；

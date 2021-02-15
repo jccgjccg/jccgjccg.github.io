@@ -1,3 +1,4 @@
+---
 title: 'MySQL-日志管理[GTID]'
 author: 饼铛
 cover: /images/img-71.png
@@ -6,6 +7,7 @@ tags:
   - 日志管理
 categories:
   - DBA
+abbrlink: 14492
 date: 2020-04-15 23:04:00
 ---
 ### 1.GTID

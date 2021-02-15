@@ -1,3 +1,4 @@
+---
 title: MySQL-MHA+Atlas+VIP+Binlog server实现MySQL的高可用和读写分离
 author: 饼铛
 cover: /images/img-71.png
@@ -8,6 +9,7 @@ tags:
   - 高可用
 categories:
   - DBA
+abbrlink: 1913
 date: 2020-04-30 16:11:00
 ---
 ## 0.说明

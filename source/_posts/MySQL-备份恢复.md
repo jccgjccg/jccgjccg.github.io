@@ -1,3 +1,4 @@
+---
 title: MySQL-数据备份&恢复&迁移
 author: 饼铛
 cover: /images/img-71.png
@@ -7,6 +8,7 @@ tags:
   - MySQL
 categories:
   - DBA
+abbrlink: 13081
 date: 2020-04-16 13:56:00
 ---
 ## 知识点回顾：

@@ -1,3 +1,4 @@
+---
 title: Zabbix-自定义监控项、触发器、告警
 author: 饼铛
 cover: /images/img-134.png
@@ -6,6 +7,7 @@ tags:
   - Zabbix
 categories:
   - Web集群
+abbrlink: 37757
 date: 2020-03-22 19:17:00
 ---
 ## 1.Zabbix监控的添加顺序

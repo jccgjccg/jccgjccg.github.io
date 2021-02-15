@@ -1,3 +1,4 @@
+---
 title: MongoDB-4.0.18介绍与C7下的二进制安装
 author: 饼铛
 cover: /images/img-119.png
@@ -6,6 +7,7 @@ tags:
   - NoSQL
 categories:
   - DBA
+abbrlink: 9482
 date: 2020-05-13 18:21:00
 ---
 ## 1.背景介绍：

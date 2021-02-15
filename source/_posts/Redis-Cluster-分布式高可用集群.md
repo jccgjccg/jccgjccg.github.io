@@ -1,3 +1,4 @@
+---
 title: Redis-Cluster 分布式高可用集群
 author: 饼铛
 cover: /images/img-100.png
@@ -9,6 +10,7 @@ tags:
   - NoSQL
 categories:
   - DBA
+abbrlink: 4591
 date: 2020-05-12 18:04:00
 ---
 ## 1.redis cluster 分布式集群介绍

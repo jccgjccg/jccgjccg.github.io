@@ -1,3 +1,4 @@
+---
 title: MySQL-MyCAT多主多从环境下实现表的垂直拆分
 author: 饼铛
 cover: /images/img-71.png
@@ -11,6 +12,7 @@ tags:
   - 主从复制
 categories:
   - DBA
+abbrlink: 28885
 date: 2020-05-05 02:02:00
 ---
 ## 0.双主环境搭建

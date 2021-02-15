@@ -1,3 +1,4 @@
+---
 title: MySQL-主从复制_过滤复制_半同步复制_GTID复制
 author: 饼铛
 cover: /images/img-71.png
@@ -6,6 +7,7 @@ tags:
   - 主从复制
 categories:
   - DBA
+abbrlink: 29984
 date: 2020-04-27 18:37:00
 ---
 ## 1.环境准备

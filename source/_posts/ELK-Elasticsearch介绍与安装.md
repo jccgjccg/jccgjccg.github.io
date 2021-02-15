@@ -1,3 +1,4 @@
+---
 title: ELK-Elasticsearch介绍与安装
 author: 饼铛
 cover: /images/img-156.png
@@ -6,6 +7,7 @@ tags:
   - Web集群
 categories:
   - Web集群
+abbrlink: 55169
 date: 2019-05-26 16:52:00
 ---
 ## 1.什么是倒排索引

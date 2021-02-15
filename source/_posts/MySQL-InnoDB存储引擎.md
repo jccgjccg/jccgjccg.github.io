@@ -1,3 +1,4 @@
+---
 title: MySQL-InnoDB存储引擎&优化
 author: 饼铛
 tags:
@@ -5,6 +6,7 @@ tags:
 categories:
   - DBA
 cover: /images/img-71.png
+abbrlink: 19696
 date: 2020-04-11 21:32:00
 ---
 ### 存储引擎

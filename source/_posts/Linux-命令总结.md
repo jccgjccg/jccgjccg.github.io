@@ -1,3 +1,4 @@
+---
 title: Linux 基础
 author: 饼铛
 tags:
@@ -6,6 +7,7 @@ tags:
 categories:
   - Web集群
 cover: /images/img-75.png
+abbrlink: 7601
 date: 2019-04-03 19:38:00
 ---
 ## 1.网络调试

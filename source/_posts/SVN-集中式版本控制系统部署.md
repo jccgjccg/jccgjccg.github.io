@@ -1,11 +1,13 @@
+---
 title: SVN-集中式版本控制系统部署
 author: 饼铛
 cover: /images/img-162.png
-date: 2020-07-15 13:37:34
 tags:
   - SVN
 categories:
   - Web集群
+abbrlink: 37052
+date: 2020-07-15 13:37:34
 ---
 ## 0.版本控制工具
 ### 0.1功能

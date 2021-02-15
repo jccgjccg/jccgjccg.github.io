@@ -1,3 +1,4 @@
+---
 title: Redis-5.0.5介绍与C7下的编译安装
 author: 饼铛
 cover: /images/img-100.png
@@ -6,6 +7,7 @@ tags:
   - NoSQL
 categories:
   - DBA
+abbrlink: 47951
 date: 2020-05-10 17:02:00
 ---
 ## 0 Redis 是什么

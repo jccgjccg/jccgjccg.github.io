@@ -6,6 +6,7 @@ tags:
 categories:
   - DBA
 cover: /images/img-71.png
+abbrlink: 40819
 date: 2019-04-07 15:20:00
 ---
 ## 安装

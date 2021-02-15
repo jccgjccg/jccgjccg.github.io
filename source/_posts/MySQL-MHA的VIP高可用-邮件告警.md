@@ -1,3 +1,4 @@
+---
 title: MySQL-MHA的VIP高可用_邮件告警
 author: 饼铛
 cover: /images/img-71.png
@@ -8,6 +9,7 @@ tags:
   - 主从复制
 categories:
   - DBA
+abbrlink: 38012
 date: 2020-04-29 18:13:00
 ---
 ## 1.MHA 的vip功能

@@ -1,3 +1,4 @@
+---
 title: Docker-手动构建dotnet镜像
 author: 饼铛
 cover: /images/img-163.png
@@ -6,6 +7,7 @@ tags:
   - Web集群
 categories:
   - Web集群
+abbrlink: 3090
 date: 2020-07-21 17:25:00
 ---
 ## 1.docker环境

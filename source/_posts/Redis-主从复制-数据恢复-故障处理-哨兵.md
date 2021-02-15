@@ -1,3 +1,4 @@
+---
 title: Redis-主从复制&数据恢复&故障处理&哨兵的故障转移
 author: 饼铛
 cover: /images/img-100.png
@@ -9,6 +10,7 @@ tags:
   - 高可用
 categories:
   - DBA
+abbrlink: 47213
 date: 2020-05-11 16:16:00
 ---
 

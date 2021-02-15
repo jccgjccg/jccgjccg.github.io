@@ -1,3 +1,4 @@
+---
 title: Zookeeper-单节点与分布式
 author: 饼铛
 cover: /images/img-161.png
@@ -6,6 +7,7 @@ tags:
   - 分布式
 categories:
   - Web集群
+abbrlink: 37683
 date: 2020-06-30 15:22:00
 ---
 >ZooKeeper是一个分布式开源框架，提供了协调分布式应用的基本服务，它向外部应用暴露一组通用服务——分布式同步（Distributed Synchronization）、命名服务（Naming Service）、集群维护（Group Maintenance）等，简化分布式应用协调及其管理的难度，提供高性能的分布式服务。ZooKeeper本身可以以Standalone模式安装运行，不过它的长处在于通过分布式ZooKeeper集群（一个Leader，多个Follower），基于一定的策略来保证ZooKeeper集群的稳定性和可用性，从而实现分布式应用的可靠性。

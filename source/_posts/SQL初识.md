@@ -7,6 +7,7 @@ tags:
 categories:
   - DBA
 cover: /images/img-71.png
+abbrlink: 9988
 date: 2019-04-12 22:04:00
 ---
 ### 1.SQL介绍

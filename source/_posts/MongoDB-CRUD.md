@@ -1,3 +1,4 @@
+---
 title: MongoDB-CRUD&运维工具介绍以及授权认证
 author: 饼铛
 cover: /images/img-119.png
@@ -6,6 +7,7 @@ tags:
   - MongoDB
 categories:
   - DBA
+abbrlink: 55301
 date: 2020-05-16 20:28:00
 ---
 MongoDB-CRUD

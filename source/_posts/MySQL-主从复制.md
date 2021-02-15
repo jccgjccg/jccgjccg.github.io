@@ -1,3 +1,4 @@
+---
 title: MySQL-主从复制基础&故障分析
 author: 饼铛
 cover: /images/img-71.png
@@ -6,6 +7,7 @@ tags:
   - MySQL
 categories:
   - DBA
+abbrlink: 7494
 date: 2020-04-24 17:28:00
 ---
 # 1.主从复制

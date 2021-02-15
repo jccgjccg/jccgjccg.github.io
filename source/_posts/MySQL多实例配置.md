@@ -6,6 +6,7 @@ tags:
 categories:
   - DBA
 cover: /images/img-71.png
+abbrlink: 9314
 date: 2019-04-09 21:48:00
 ---
 #### 创建目录

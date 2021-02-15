@@ -1,3 +1,4 @@
+---
 title: jk-document
 author: 饼铛
 tags:
@@ -5,6 +6,7 @@ tags:
 categories:
   - tools
 cover: /images/img-73.png
+abbrlink: 41552
 date: 2019-03-05 04:03:00
 ---
 |Name        | Passwd        | links  |

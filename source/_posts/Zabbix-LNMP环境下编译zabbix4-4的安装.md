@@ -1,3 +1,4 @@
+---
 title: Zabbix-LNMP环境下zabbix4.4的编译安装
 author: 饼铛
 cover: /images/img-134.png
@@ -6,6 +7,7 @@ tags:
   - Web集群
 categories:
   - Web集群
+abbrlink: 16785
 date: 2020-03-21 18:44:00
 ---
 ## 1.安装要求

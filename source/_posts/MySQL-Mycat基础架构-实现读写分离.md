@@ -1,3 +1,4 @@
+---
 title: MySQL-MyCAT基础架构&实现高可用和读写分离
 author: 饼铛
 cover: /images/img-71.png
@@ -10,6 +11,7 @@ tags:
   - 高可用
 categories:
   - DBA
+abbrlink: 30216
 date: 2020-05-05 00:05:00
 ---
 ## 1.环境准备：

@@ -1,3 +1,4 @@
+---
 title: 树莓派3B-安装java8部署Minecraft服务器
 author: 饼铛
 tags:
@@ -6,6 +7,7 @@ tags:
 categories:
   - Minecraft
 cover: /images/img-70.png
+abbrlink: 22112
 date: 2020-04-13 07:47:00
 ---
 #### 1.java8(arm)下载地址

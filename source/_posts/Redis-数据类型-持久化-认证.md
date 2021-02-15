@@ -1,3 +1,4 @@
+---
 title: Redis-数据类型&持久化&安全认证和配置的热更新
 author: 饼铛
 cover: /images/img-100.png
@@ -6,6 +7,7 @@ tags:
   - NoSQL
 categories:
   - DBA
+abbrlink: 42079
 date: 2020-05-10 23:40:00
 ---
 ## 1.全局命令

@@ -1,3 +1,4 @@
+---
 title: 'MySQL-日志管理[bin_log原理&恢复案例]'
 author: 饼铛
 cover: /images/img-71.png
@@ -6,6 +7,7 @@ tags:
   - 日志管理
 categories:
   - DBA
+abbrlink: 46149
 date: 2020-04-15 16:52:00
 ---
 ## 1 日志管理：

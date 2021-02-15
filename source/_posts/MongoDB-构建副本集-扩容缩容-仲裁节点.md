@@ -1,3 +1,4 @@
+---
 title: MongoDB-构建副本集&扩容缩容&仲裁节点
 author: 饼铛
 cover: /images/img-119.png
@@ -6,6 +7,7 @@ tags:
   - 主从复制
 categories:
   - DBA
+abbrlink: 45632
 date: 2020-05-21 15:52:00
 ---
 ## 0.副本集架构介绍

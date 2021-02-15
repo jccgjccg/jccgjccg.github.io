@@ -7,6 +7,7 @@ tags:
 categories:
   - DBA
 cover: /images/img-71.png
+abbrlink: 19364
 date: 2019-04-15 11:52:00
 ---
 ## 环境准备：

@@ -1,3 +1,4 @@
+---
 title: Zabbix-实现邮件+微信告警
 author: 饼铛
 cover: /images/img-134.png
@@ -7,6 +8,7 @@ tags:
   - ''
 categories:
   - Web集群
+abbrlink: 19144
 date: 2020-03-24 21:58:00
 ---
 ## 1.邮件告警

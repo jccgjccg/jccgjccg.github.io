@@ -1,3 +1,4 @@
+---
 title: Git-Gitlab基本使用
 author: 饼铛
 cover: /images/img-160.png
@@ -6,6 +7,7 @@ tags:
   - gitlab
 categories:
   - Web集群
+abbrlink: 31240
 date: 2019-06-22 15:30:00
 ---
 ## 1.Gitlab服务运维：

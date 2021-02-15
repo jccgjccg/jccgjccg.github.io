@@ -1,3 +1,4 @@
+---
 title: Zabbix-初始配置&解决4.4版本中文乱码
 author: 饼铛
 cover: /images/img-134.png
@@ -6,6 +7,7 @@ tags:
   - Zabbix
 categories:
   - Web集群
+abbrlink: 30743
 date: 2020-03-21 19:17:00
 ---
 **1.禁用默认的Zabbix Server主机的监控**

@@ -7,6 +7,7 @@ tags:
 categories:
   - DBA
 cover: /images/img-71.png
+abbrlink: 6114
 date: 2019-04-17 18:57:00
 ---
 ### 1.information_schema.tables基础应用

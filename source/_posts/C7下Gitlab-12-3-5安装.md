@@ -1,3 +1,4 @@
+---
 title: Git-C7下Gitlab-12.3.5安装
 author: 饼铛
 cover: /images/img-160.png
@@ -6,6 +7,7 @@ tags:
   - gitlab
 categories:
   - Web集群
+abbrlink: 32386
 date: 2019-06-22 14:39:00
 ---
 ## 1.GitLab 概述：

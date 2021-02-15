@@ -1,3 +1,4 @@
+---
 title: MySQL-主从复制_延时从库
 author: 饼铛
 cover: /images/img-71.png
@@ -6,6 +7,7 @@ tags:
   - 主从复制
 categories:
   - DBA
+abbrlink: 13272
 date: 2020-04-27 13:54:00
 ---
 ### 1.延时从库
