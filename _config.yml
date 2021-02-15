@@ -5,7 +5,7 @@
 # Site
 title: BingCheng
 subtitle: '当你能飞的时候就不要放弃飞；当你有梦的时候就不要放弃追。'
-description: '学无止境是永远前进的基础，跃然纸上是对知识的总结交代，与众分享则是实现价值的最好方式。'
+description: '当你能飞的时候就不要放弃飞，当你有梦的时候就不要放弃追。'
 keywords: 'DBA,Linux,运维,系统运维,分布式,高可用,负载均衡,老菜鸟,Docker,k8s,虚拟化,云计算,network,system'
 author: 饼铛
 language: zh-CN
@@ -23,7 +23,7 @@ pretty_urls:
 
 # abbrlink config
 abbrlink:
-  alg: crc16  #support crc16(default) and crc32
+  alg: crc32  #support crc16(default) and crc32
   rep: dec    #support dec(default) and hex
   drafts: false #(true)Process draft,(false)Do not process draft
   # Generate categories from directory-tree
