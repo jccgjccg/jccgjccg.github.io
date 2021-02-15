@@ -1,7 +1,35 @@
 - class_name: 友情鏈接
   class_desc: 那些人，那些事
   link_list:
-    - name: Hexo
-      link: https://hexo.io/zh-tw/
-      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
-      descr: 快速、簡單且強大的網誌框架
+    - name: 豌豆多多
+      link: https://wandouduoduo.github.io/
+      avatar: https://static.studygolang.com/avatar/gopher10.png
+      descr: 资深沪漂运维工程师
+    - name: 三步枫
+      link: https://blog.adymilk.cn/
+      avatar: https://static.studygolang.com/avatar/gopher10.png
+      descr: 极客三步枫
+    - name: VirCloud Blog
+      link: https://vircloud.net/
+      avatar: https://static.studygolang.com/avatar/gopher10.png
+      descr: Typecho-ArmxMod作者
+    - name: 周小雨
+      link: https://zxyy.me/
+      avatar: https://static.studygolang.com/avatar/gopher10.png
+      descr: PHP程序媛/猿？
+    - name: abcOPS
+      link: https://abcops.cn/
+      avatar: https://static.studygolang.com/avatar/gopher10.png
+      descr: 运维大佬
+    - name: dbdocker
+      link: https://www.liuname.xyz/
+      avatar: https://static.studygolang.com/avatar/gopher10.png
+      descr: 运维老司机
+    - name: 老寒
+      link: https://blog.liru05.top/
+      avatar: https://static.studygolang.com/avatar/gopher10.png
+      descr: 精神老伙
+    - name: 幽乐谷
+      link: https://www.misslegu.com/
+      avatar: https://static.studygolang.com/avatar/gopher10.png
+      descr: 精神小伙
