@@ -631,7 +631,7 @@ subtitle:
   # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
   sub:
-    - 当你能飞的时候就不要放弃飞&#44;
+    - 念念不忘&#44必有回响。;
     - Never give up the faith.
 
 # Loading Animation (加載動畫)
