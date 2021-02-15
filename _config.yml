@@ -24,7 +24,7 @@ pretty_urls:
 # abbrlink config
 abbrlink:
   alg: crc32  #support crc16(default) and crc32
-  rep: dec    #support dec(default) and hex
+  rep: hex    #support dec(default) and hex
   drafts: false #(true)Process draft,(false)Do not process draft
   # Generate categories from directory-tree
   # depth: the max_depth of directory-tree you want to generate, should > 0
