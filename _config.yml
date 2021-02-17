@@ -145,10 +145,14 @@ live2d:
   enable: true
   pluginModelPath: assets/
   model:
-    use: live2d-widget-model-haru/02 
+    use: live2d-widget-model-haru/02
+  bottom: -40
   display:
-    position: left
+    position: right
+    #left
     width: 190
     height: 380
+    hOffset: 80
+    #水平位置
   mobile:
     show: false
