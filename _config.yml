@@ -9,7 +9,7 @@ description: '念念不忘，必有回响。'
 keywords: 'DBA,Linux,运维,系统运维,分布式,高可用,负载均衡,老菜鸟,Docker,k8s,虚拟化,云计算,network,system'
 author: 饼铛
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
@@ -128,7 +128,11 @@ deploy:
   
 backup:
   type: git
-  theme: fluid
+  theme: butterfly
   message: Back up my blog
   repository:
       github: git@github.com:bingdang/bingdang.github.io.git,backup
+
+# hexo-admin默认参数
+metadata:
+  cover: /img/loading.gif
