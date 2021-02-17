@@ -17,7 +17,7 @@ menu:
   Link: /link/ || fas fa-link
   About: /about/ || fas fa-heart
   List||fas fa-list:
-    - Construction || /Construction/ || fas fa-wheelchair-alt
+    - Construction || /Construction/ || fab fa-accessible-icon
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
@@ -45,6 +45,7 @@ copy:
 social:
    fab fa-qq: https://qm.qq.com/cgi-bin/qm/qr?k=Q1N9l3isk8O_i5awFwO-blAoPH7PUeb4&noverify=0 || Github
    fas fa-envelope: mailto:flybaf740@gmail.com || Email
+   fas fa-record-vinyl: https://music.163.com/playlist?id=5434811591 || Netease
 
 # search (搜索)
 # --------------------------------------
