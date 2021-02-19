@@ -2600,6 +2600,11 @@
     "moment" "^2.18.0"
     "nunjucks" "^3.2.1"
 
+"hexo-filter-nofollow@^2.0.2":
+  "integrity" "sha1-kDaS+V8m1q2JM+mSbJTUIrvyXWg="
+  "resolved" "https://registry.npm.taobao.org/hexo-filter-nofollow/download/hexo-filter-nofollow-2.0.2.tgz"
+  "version" "2.0.2"
+
 "hexo-front-matter@^0.2.2":
   "integrity" "sha1-x8qO9CDqNr2F6ECKLoyb9J76YF4="
   "resolved" "https://registry.npm.taobao.org/hexo-front-matter/download/hexo-front-matter-0.2.3.tgz"

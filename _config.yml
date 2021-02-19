@@ -144,6 +144,14 @@ sitemap:
   tags: true
   categories: true
 
+# SEO外链
+nofollow:
+  enable: true
+  field: site
+  exclude:
+#    - 'exclude1.com'
+#    - 'exclude2.com'
+
 #live2d看板动画
 #npm install --save hexo-helper-live2d
 #npm install --save live2d-widget-model-haru
