@@ -8,7 +8,7 @@ tags:
   - MySQL
 categories:
   - DBA
-abbrlink: 13081
+abbrlink: 5c41384a
 date: 2020-04-16 13:56:00
 ---
 ## 知识点回顾：

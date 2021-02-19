@@ -7,7 +7,7 @@ tags:
   - 主从复制
 categories:
   - DBA
-abbrlink: 13272
+abbrlink: f34e607d
 date: 2020-04-27 13:54:00
 ---
 ### 1.延时从库

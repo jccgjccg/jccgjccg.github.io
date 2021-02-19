@@ -12,7 +12,7 @@ tags:
   - 主从复制
 categories:
   - DBA
-abbrlink: 56642
+abbrlink: c3e55136
 date: 2020-05-05 19:09:00
 ---
 ## 0.水平拆分算法

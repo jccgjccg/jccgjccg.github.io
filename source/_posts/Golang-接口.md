@@ -5,9 +5,9 @@ tags:
   - Golang
 categories:
   - Golang
+cover: /images/pasted-2.png
 abbrlink: f9d199b7
 date: 2021-02-15 22:02:00
-cover: /images/pasted-2.png
 ---
 # 1. 接口
 

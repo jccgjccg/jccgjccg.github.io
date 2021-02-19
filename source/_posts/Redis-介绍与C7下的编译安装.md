@@ -7,7 +7,7 @@ tags:
   - NoSQL
 categories:
   - DBA
-abbrlink: 47951
+abbrlink: fb94f251
 date: 2020-05-10 17:02:00
 ---
 ## 0 Redis 是什么

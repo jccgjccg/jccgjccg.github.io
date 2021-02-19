@@ -5,7 +5,7 @@ cover: /images/img-156.png
 tags:
   - ELK
   - Web集群
-abbrlink: 42967
+abbrlink: 131c756
 date: 2020-06-12 16:22:34
 ---
 ## 1.起因

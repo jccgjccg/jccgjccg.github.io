@@ -7,7 +7,7 @@ tags:
   - gitlab
 categories:
   - Web集群
-abbrlink: 32386
+abbrlink: 60c1bc2d
 date: 2019-06-22 14:39:00
 ---
 ## 1.GitLab 概述：

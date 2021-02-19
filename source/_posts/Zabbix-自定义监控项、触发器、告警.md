@@ -7,7 +7,7 @@ tags:
   - Zabbix
 categories:
   - Web集群
-abbrlink: 37757
+abbrlink: 3837938a
 date: 2020-03-22 19:17:00
 ---
 ## 1.Zabbix监控的添加顺序

@@ -9,7 +9,7 @@ tags:
   - 高可用
 categories:
   - DBA
-abbrlink: 36673
+abbrlink: bbb9c58b
 date: 2020-04-28 10:39:00
 ---
 ## 0.需要用到的软件包；

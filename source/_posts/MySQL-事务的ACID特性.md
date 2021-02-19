@@ -8,7 +8,7 @@ tags:
 categories:
   - DBA
 cover: /images/img-71.png
-abbrlink: 32222
+abbrlink: bc8a646
 date: 2020-04-11 22:07:00
 ---
 ### 事务的ACID特性

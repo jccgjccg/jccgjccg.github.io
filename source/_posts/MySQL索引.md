@@ -8,7 +8,7 @@ tags:
 categories:
   - DBA
 cover: /images/img-71.png
-abbrlink: 42387
+abbrlink: 68023dec
 date: 2020-04-03 15:54:00
 ---
 ### 索引的作用

@@ -7,7 +7,7 @@ tags:
   - MongoDB
 categories:
   - DBA
-abbrlink: 55301
+abbrlink: 40c70ce
 date: 2020-05-16 20:28:00
 ---
 MongoDB-CRUD

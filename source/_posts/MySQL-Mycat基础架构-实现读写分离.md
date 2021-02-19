@@ -11,7 +11,7 @@ tags:
   - 高可用
 categories:
   - DBA
-abbrlink: 30216
+abbrlink: 84c0fcc7
 date: 2020-05-05 00:05:00
 ---
 ## 1.环境准备：

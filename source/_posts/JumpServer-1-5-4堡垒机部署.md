@@ -7,7 +7,7 @@ tags:
   - 堡垒机
   - Web集群
 categories: []
-abbrlink: 31111
+abbrlink: bac240f7
 date: 2020-05-19 02:44:00
 ---
 ## 0.环境准备：

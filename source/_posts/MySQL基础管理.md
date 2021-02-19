@@ -6,7 +6,7 @@ tags:
 categories:
   - DBA
 cover: /images/img-71.png
-abbrlink: 26795
+abbrlink: ddc093b3
 date: 2019-04-09 21:16:00
 ---
 ### 用户 权限管理

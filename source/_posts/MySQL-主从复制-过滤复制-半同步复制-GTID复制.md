@@ -7,7 +7,7 @@ tags:
   - 主从复制
 categories:
   - DBA
-abbrlink: 29984
+abbrlink: c3e1b71a
 date: 2020-04-27 18:37:00
 ---
 ## 1.环境准备

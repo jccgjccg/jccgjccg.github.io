@@ -7,7 +7,7 @@ tags:
   - NoSQL
 categories:
   - DBA
-abbrlink: 9482
+abbrlink: c4bb5371
 date: 2020-05-13 18:21:00
 ---
 ## 1.背景介绍：

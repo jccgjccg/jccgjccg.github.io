@@ -3,11 +3,11 @@ title: Golang-指针、类型自定义、类型别名、结构体、json序列�
 author: 饼铛
 tags:
   - Golang
-categories: 
+categories:
   - Golang
-abbrlink: 1102b253
-date: 2021-02-15 21:32:00
 cover: /images/pasted-2.png
+abbrlink: b17eefd4
+date: 2021-02-15 21:32:00
 ---
 # 1. 指针
 

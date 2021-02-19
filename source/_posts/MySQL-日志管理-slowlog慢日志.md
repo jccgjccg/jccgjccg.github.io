@@ -7,7 +7,7 @@ tags:
   - 日志管理
 categories:
   - DBA
-abbrlink: 15274
+abbrlink: 62bf20bb
 date: 2020-04-16 13:14:00
 ---
 ### 1. 优化相关日志-slowlog

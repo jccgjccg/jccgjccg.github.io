@@ -7,7 +7,7 @@ tags:
 categories:
   - DBA
 cover: /images/img-71.png
-abbrlink: 28583
+abbrlink: 49de8711
 date: 2020-04-11 22:47:00
 ---
 ### 1.锁

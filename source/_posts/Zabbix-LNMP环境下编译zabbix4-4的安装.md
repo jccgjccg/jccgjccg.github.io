@@ -7,7 +7,7 @@ tags:
   - Web集群
 categories:
   - Web集群
-abbrlink: 16785
+abbrlink: ae26d423
 date: 2020-03-21 18:44:00
 ---
 ## 1.安装要求

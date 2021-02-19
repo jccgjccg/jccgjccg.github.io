@@ -6,7 +6,7 @@ tags:
 categories:
   - DBA
 cover: /images/img-71.png
-abbrlink: 39674
+abbrlink: 3c4a0863
 date: 2019-04-08 20:39:00
 ---
 ## MySQL C/S结构

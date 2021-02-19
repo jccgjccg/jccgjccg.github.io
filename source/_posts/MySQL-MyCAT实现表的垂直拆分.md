@@ -12,7 +12,7 @@ tags:
   - 主从复制
 categories:
   - DBA
-abbrlink: 28885
+abbrlink: 557ea64b
 date: 2020-05-05 02:02:00
 ---
 ## 0.双主环境搭建

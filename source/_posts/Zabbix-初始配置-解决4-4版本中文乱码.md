@@ -7,7 +7,7 @@ tags:
   - Zabbix
 categories:
   - Web集群
-abbrlink: 30743
+abbrlink: f353577b
 date: 2020-03-21 19:17:00
 ---
 **1.禁用默认的Zabbix Server主机的监控**

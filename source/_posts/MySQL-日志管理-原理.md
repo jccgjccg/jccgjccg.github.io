@@ -7,7 +7,7 @@ tags:
   - 日志管理
 categories:
   - DBA
-abbrlink: 46149
+abbrlink: 1785d60f
 date: 2020-04-15 16:52:00
 ---
 ## 1 日志管理：

@@ -7,7 +7,7 @@ tags:
   - MySQL
 categories:
   - DBA
-abbrlink: 7494
+abbrlink: 69e1266e
 date: 2020-04-24 17:28:00
 ---
 # 1.主从复制

@@ -10,7 +10,7 @@ tags:
   - 高可用
 categories:
   - DBA
-abbrlink: 47213
+abbrlink: da64184b
 date: 2020-05-11 16:16:00
 ---
 

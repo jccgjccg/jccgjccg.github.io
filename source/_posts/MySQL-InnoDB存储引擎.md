@@ -6,7 +6,7 @@ tags:
 categories:
   - DBA
 cover: /images/img-71.png
-abbrlink: 19696
+abbrlink: 3053135c
 date: 2020-04-11 21:32:00
 ---
 ### 存储引擎

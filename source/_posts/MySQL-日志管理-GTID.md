@@ -7,7 +7,7 @@ tags:
   - 日志管理
 categories:
   - DBA
-abbrlink: 14492
+abbrlink: 93ea067
 date: 2020-04-15 23:04:00
 ---
 ### 1.GTID

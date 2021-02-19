@@ -7,7 +7,7 @@ tags:
   - 主从复制
 categories:
   - DBA
-abbrlink: 45632
+abbrlink: 6c0d75ae
 date: 2020-05-21 15:52:00
 ---
 ## 0.副本集架构介绍

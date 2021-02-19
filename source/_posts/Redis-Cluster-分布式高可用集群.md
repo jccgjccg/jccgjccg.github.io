@@ -10,7 +10,7 @@ tags:
   - NoSQL
 categories:
   - DBA
-abbrlink: 4591
+abbrlink: 58eea07e
 date: 2020-05-12 18:04:00
 ---
 ## 1.redis cluster 分布式集群介绍

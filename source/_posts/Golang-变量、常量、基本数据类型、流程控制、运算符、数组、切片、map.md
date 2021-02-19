@@ -1,11 +1,12 @@
+---
 title: Golang-变量、常量、基本数据类型、流程控制、运算符、数组、切片、map
 author: 饼铛
 tags:
   - Golang
 categories:
   - Golang
-abbrlink: 649a95fd
 cover: /images/pasted-2.png
+abbrlink: 649a95fd
 date: 2021-02-15 21:31:00
 ---
 # 1.变量、常量

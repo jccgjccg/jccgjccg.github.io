@@ -7,7 +7,7 @@ tags:
   - NoSQL
 categories:
   - DBA
-abbrlink: 42079
+abbrlink: ae6c7518
 date: 2020-05-10 23:40:00
 ---
 ## 1.全局命令

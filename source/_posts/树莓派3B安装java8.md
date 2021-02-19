@@ -7,7 +7,7 @@ tags:
 categories:
   - Minecraft
 cover: /images/img-70.png
-abbrlink: 22112
+abbrlink: 8bd2a16a
 date: 2020-04-13 07:47:00
 ---
 #### 1.java8(arm)下载地址

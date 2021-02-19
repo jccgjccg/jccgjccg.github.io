@@ -7,7 +7,7 @@ tags:
   - gitlab
 categories:
   - Web集群
-abbrlink: 31240
+abbrlink: 873540ab
 date: 2019-06-22 15:30:00
 ---
 ## 1.Gitlab服务运维：

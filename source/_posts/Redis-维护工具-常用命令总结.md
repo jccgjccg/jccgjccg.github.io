@@ -8,7 +8,7 @@ tags:
   - tools
 categories:
   - DBA
-abbrlink: 60768
+abbrlink: 212d60e3
 date: 2020-05-13 17:27:00
 ---
 ## 1.Redis 集群常用命令
