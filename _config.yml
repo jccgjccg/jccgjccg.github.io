@@ -137,6 +137,13 @@ backup:
 metadata:
   cover: /img/loading.gif
 
+# 爬虫页面
+sitemap:
+  path: sitemap.xml
+  rel: false
+  tags: true
+  categories: true
+
 #live2d看板动画
 #npm install --save hexo-helper-live2d
 #npm install --save live2d-widget-model-haru
