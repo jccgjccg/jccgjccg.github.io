@@ -141,14 +141,8 @@ metadata:
 # 爬虫页面
 sitemap:
   path: sitemap.xml
-  rel: false
-  tags: true
-  categories: true
 baidusitemap:
   path: baidusitemap.xml
-  rel: false
-  tags: true
-  categories: true
 
 # SEO外链
 nofollow:
