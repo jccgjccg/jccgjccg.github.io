@@ -33,3 +33,32 @@
       link: https://blog.quickso.cn/
       avatar: /img/index.png
       descr: 基安小伙伴
+
+- class_name: 开源镜像站
+  class_desc: 
+  link_list:
+    - name: 华为开源镜像站
+      link: https://mirrors.huaweicloud.com/
+      avatar: https://www.huawei.com/Assets/corp/v2/img/img_ent_en_logo_ico.png
+      descr: 构建万物互联的智能世界
+    - name: 阿里开源镜像站
+      link: https://mirrors.aliyun.com/
+      avatar: https://img.alicdn.com/tfs/TB1qNVdXlGw3KVjSZFDXXXWEpXa-620-620.png
+      descr: 为了无法计算的价值
+    - name: 网易开源镜像站
+      link: https://mirrors.163.com/
+      avatar: https://mirrors.163.com/.media/favicon.ico
+      descr: 网聚人的力量
+    - name: 清华开源镜像站
+      link: https://mirrors.tuna.tsinghua.edu.cn/
+      avatar: https://mirrors.tuna.tsinghua.edu.cn/static/img/logo-small.png
+      descr: 自强不息,厚德载物
+    - name: 浙大开源镜像站
+      link: https://mirrors.zju.edu.cn/
+      avatar: https://www.zju.edu.cn/_upload/tpl/05/e5/1509/template1509/images/favicon.ico
+      descr: 兼总条贯,知至知终
+    - name: 中科大开源镜像站
+      link: https://mirrors.ustc.edu.cn/
+      avatar: https://ustc.edu.cn/images/ustc.ico
+      descr: 红专并进,理实交融
+
