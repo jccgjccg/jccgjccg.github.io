@@ -39,7 +39,7 @@
   link_list:
     - name: 华为开源镜像站
       link: https://mirrors.huaweicloud.com/
-      avatar: https://www.huawei.com/Assets/corp/v2/img/img_ent_en_logo_ico.png
+      avatar: https://huawei.best/2021/03/15/fe9c29f1e63d8.png
       descr: 构建万物互联的智能世界
     - name: 阿里开源镜像站
       link: https://mirrors.aliyun.com/
