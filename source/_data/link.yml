@@ -33,6 +33,10 @@
       link: https://blog.quickso.cn/
       avatar: /img/index.png
       descr: 基安小伙伴
+    - name: Lucky
+      link: https://www.centoscn.vip/
+      avatar: https://www.centoscn.vip/wp-content/uploads/2020/03/9DF0B7249C75F15D8AC42889564FD226.jpg
+      descr: 运维大佬
 
 - class_name: 开源镜像站
   class_desc: 
@@ -43,22 +47,22 @@
       descr: 构建万物互联的智能世界
     - name: 阿里开源镜像站
       link: https://mirrors.aliyun.com/
-      avatar: https://img.alicdn.com/tfs/TB1qNVdXlGw3KVjSZFDXXXWEpXa-620-620.png
+      avatar: https://huawei.best/2021/03/16/1a57aabd7bfe9.png
       descr: 为了无法计算的价值
     - name: 网易开源镜像站
       link: https://mirrors.163.com/
-      avatar: https://mirrors.163.com/.media/favicon.ico
+      avatar: https://huawei.best/2021/03/16/461ee097956da.png
       descr: 网聚人的力量
     - name: 清华开源镜像站
       link: https://mirrors.tuna.tsinghua.edu.cn/
-      avatar: https://mirrors.tuna.tsinghua.edu.cn/static/img/logo-small.png
+      avatar: https://huawei.best/2021/03/16/6d0f0c97325d8.png
       descr: 自强不息,厚德载物
     - name: 浙大开源镜像站
       link: https://mirrors.zju.edu.cn/
-      avatar: https://www.zju.edu.cn/_upload/tpl/05/e5/1509/template1509/images/favicon.ico
+      avatar: https://huawei.best/2021/03/16/33adc31f26183.png
       descr: 兼总条贯,知至知终
     - name: 中科大开源镜像站
       link: https://mirrors.ustc.edu.cn/
-      avatar: https://ustc.edu.cn/images/ustc.ico
+      avatar: https://huawei.best/2021/03/16/08a9772456dad.png
       descr: 红专并进,理实交融
 
