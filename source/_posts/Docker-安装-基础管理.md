@@ -219,6 +219,20 @@ docker run -it --name centos7 centos:7 /bin/bash
 * --link=[]：添加链接到另一容器
 * --expose=[]:开放一个端口或一组端口
 ```
+#### 资源限制
+```bash
+-cpuset-cpus用于设置容器可以使用的 vCPU 核。
+-c,--cpu-shares用于设置多个容器竞争 CPU 时，各个容器相对能分配到的 CPU 时间比例。
+假设有三个正在运行的容器，这三个容器中的任务都是 CPU 密集型的。
+第一个容器的 cpu 共享权值是 1024，其它两个容器的 cpu 共享权值是 512。
+第一个容器将得到 50% 的 CPU 时间，而其它两个容器就只能各得到 25% 的 CPU 时间了。
+
+如果再添加第四个 cpu 共享值为 1024 的容器，每个容器得到的 CPU 时间将重新计算。
+第一个容器的CPU 时间变为 33%，其它容器分得的 CPU 时间分别为 16.5%、16.5%、33%。
+必须注意的是，这个比例只有在 CPU 密集型的任务执行时才有用。
+在四核的系统上，假设有四个单进程的容器，它们都能各自使用一个核的 100% CPU 时间，不管它们的 cpu 共享权值是多少。
+$ docker run --cpuset-cpus="0-3" --cpu-shares=512 --memory=500m nginx:alpine
+```
 `docker container ls`：查看正在运行的容器
 ```bash
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                NAMES
@@ -283,7 +297,7 @@ tcp        0      0 192.168.200.163:4002    0.0.0.0:*               LISTEN      
 
 docker run 
 -v 宿主机绝对目录:容器目录
--v 容器目录			 #创建一个随机卷，来持久化容器的目录下的数据
+-v 容器目录			 #创建一个随机卷，来持久化容器的目录下的数据,可添加多个
 -v 卷名:容器目录		#创建一个固定名字的卷，来持久化容器的目录下的数据
 --volumes-from 	 	#继承一个容器挂载所有的卷
 
@@ -307,12 +321,16 @@ gitlab  index.html  nginx.tar.gz  rh
 [root@wikifx2 ~]# docker run -d -p 80:80 -v /opt/:/usr/share/nginx/html nginx:latest  #挂载本地目录到容器
 f3e1daca1805a9b95d79bac52d9b17d58bf6529eecb89205fae42095cb758ca4
 [root@wikifx2 ~]# echo "pincheng.org" >> /opt/index.html #更改本机首页文件
+
+$ docker run --name nginx -d  -v /opt:/opt -v /var/log:/var/log nginx:alpine
+$ docker run --name mysql -e MYSQL_ROOT_PASSWORD=123456 -d -v /opt/mysql/:/var/lib/mysql mysql:5.7
 ```
 3.挂载容器数据卷
 ```bash
 [root@wikifx2 ~]# docker rm -f `docker ps -q -a`
 f3e1daca1805
-[root@wikifx2 ~]# docker run -d -p 80:80 -v pincheng:/usr/share/nginx/html nginx:latest #不存在则自动创建容器数据卷pincheng
+[root@wikifx2 ~]# docker volume create pincheng #创建容器数据卷
+[root@wikifx2 ~]# docker run -d -p 80:80 -v pincheng:/usr/share/nginx/html nginx:latest #若不存在则自动创建容器数据卷pincheng
 b34ceac10eb50f11122df2c303cec951c5168e3b2e38a266f75057cfbd0bfbc4
 [root@wikifx2 ~]# docker volume ls #查看所有数据卷
 DRIVER              VOLUME NAME
