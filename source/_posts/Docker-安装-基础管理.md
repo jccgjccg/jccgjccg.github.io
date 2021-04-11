@@ -39,7 +39,7 @@ EOF
 $ sysctl -p /etc/sysctl.d/docker.conf
 ```
 ### 2.2yum源准备：
-`curl https://mirrors.huaweicloud.com/docker-ce/linux/centos/docker-ce.repo -o /etc/yum.repos.d/docker-ce.repo`
+`curl -o /etc/yum.repos.d/docker-ce.repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo`
 
 ### 2.3更新 yum 缓存：
 `sudo yum makecache fast`
@@ -68,7 +68,12 @@ Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docke
 ```bash
 tee /etc/docker/daemon.json <<- 'EOF'
 {
-    "registry-mirrors": ["https://51d27ab892014e7db8daac09c3d669ec.mirror.swr.myhuaweicloud.com"]
+  "registry-mirrors" : [
+    "https://8xpk5wnt.mirror.aliyuncs.com",
+    "https://dockerhub.azk8s.cn",
+    "https://registry.docker-cn.com",
+    "https://ot2k4d59.mirror.aliyuncs.com/"
+  ]
 }
 EOF
 
