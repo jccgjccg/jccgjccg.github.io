@@ -1,4 +1,3 @@
----
 title: Docker-安装&基础管理
 author: 饼铛
 cover: /images/img-163.png
@@ -22,6 +21,22 @@ docker主要组件有：镜像、容器、仓库、网络、存储
 ```bash
 [root@wikifx2 ~]# uname -r
 3.10.0-1127.13.1.el7.x86_64
+```
+
+### 2.1配置网卡转发,看值是否为1
+```
+$ sysctl -a |grep -w net.ipv4.ip_forward
+net.ipv4.ip_forward = 1
+```
+
+#### 若未配置，需要执行如下
+```
+$ cat <<EOF >  /etc/sysctl.d/docker.conf
+net.bridge.bridge-nf-call-ip6tables = 1
+net.bridge.bridge-nf-call-iptables = 1
+net.ipv4.ip_forward=1
+EOF
+$ sysctl -p /etc/sysctl.d/docker.conf
 ```
 ### 2.2yum源准备：
 `curl https://mirrors.huaweicloud.com/docker-ce/linux/centos/docker-ce.repo -o /etc/yum.repos.d/docker-ce.repo`
