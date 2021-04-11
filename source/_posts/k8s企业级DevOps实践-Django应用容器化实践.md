@@ -28,6 +28,7 @@ Dockerfile是一堆指令，在docker build的时候，按照该指令进行操�
 
 - FROM 指定基础镜像，必须为第一个命令
 
+
   ```
   格式：
   	FROM <image>
@@ -40,6 +41,7 @@ Dockerfile是一堆指令，在docker build的时候，按照该指令进行操�
 
 - MAINTAINER 镜像维护者的信息
 
+
   ```
   格式：
   	MAINTAINER <name>
@@ -50,6 +52,7 @@ Dockerfile是一堆指令，在docker build的时候，按照该指令进行操�
   ```
 
 - COPY|ADD 添加本地文件到镜像中
+
 
   ```
   格式：
@@ -62,6 +65,7 @@ Dockerfile是一堆指令，在docker build的时候，按照该指令进行操�
 
 - WORKDIR 工作目录
 
+
   ```
   格式：
   	WORKDIR /path/to/workdir
@@ -72,6 +76,7 @@ Dockerfile是一堆指令，在docker build的时候，按照该指令进行操�
   ```
 
 - RUN 构建镜像过程中执行命令
+
 
   ```
   格式：
@@ -87,6 +92,7 @@ Dockerfile是一堆指令，在docker build的时候，按照该指令进行操�
 
 - CMD 构建容器后调用，也就是在容器启动时才进行调用
 
+
   ```
   格式：
       CMD ["executable","param1","param2"] (执行可执行文件，优先)
@@ -101,6 +107,7 @@ Dockerfile是一堆指令，在docker build的时候，按照该指令进行操�
 
 - ENTRYPOINT 设置容器初始化命令，使其可执行化
 
+
   ```
   格式：
       ENTRYPOINT ["executable", "param1", "param2"] (可执行文件, 优先)
@@ -113,6 +120,7 @@ Dockerfile是一堆指令，在docker build的时候，按照该指令进行操�
 
 - ENV 设置容器内环境变量
 
+
   ```
   格式：
       ENV <key> <value>
@@ -123,6 +131,7 @@ Dockerfile是一堆指令，在docker build的时候，按照该指令进行操�
   ```
 
 - EXPOSE 设置容器对外暴露的端口
+
 
   ```
   格式：
@@ -135,6 +144,7 @@ Dockerfile是一堆指令，在docker build的时候，按照该指令进行操�
       EXPOSE并不会让容器的端口访问到主机。要使其可访问，需要在docker run运行容器时通过-p来发布这些端口，或通过-P参数来发布EXPOSE导出的所有端口
   
   ```
+
 
 ![Dockerfile介绍](/images/pasted-7.png)
 
