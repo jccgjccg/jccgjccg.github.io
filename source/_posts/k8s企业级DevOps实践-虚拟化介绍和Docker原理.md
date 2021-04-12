@@ -54,7 +54,6 @@ func setNamespaces(daemon *Daemon, s *specs.Spec, c *container.Container) error 
 ### CGroup 资源限制
 
 通过`namespace`可以保证容器之间的隔离，但是无法控制每个容器可以占用多少资源， 如果其中的某一个容器正在执行 CPU 密集型的任务，那么就会影响其他容器中任务的性能与执行效率，导致多个容器相互影响并且抢占资源。如何对多个容器的资源使用进行限制就成了解决进程虚拟资源隔离之后的主要问题。
-image-20210412153606248.png
 ![docker](/images/pasted-13.png)
 
 Control Groups（简称 CGroups）就是能够隔离宿主机器上的物理资源，例如 CPU、内存、磁盘 I/O 和网络带宽。每一个 `CGroup` 都是一组被相同的标准和参数限制的进程。而我们需要做的，其实就是把容器这个进程加入到指定的`Cgroup`中。
