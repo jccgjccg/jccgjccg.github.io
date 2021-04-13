@@ -170,11 +170,13 @@ filter {
          grok {
             match => { "message" => "%{IPORHOST:client_ip} - %{USER:auth} \[%{HTTPDATE:timestamp}\] \"(?:%{WORD:verb} %{NOTSPACE:request}(?: HTTP/%{NUMBER:http_version})?|-)\" (%{IPORHOST:domain}|%{URIHOST:domain}|-) %{NUMBER:response} %{NUMBER:bytes} %{QS:referrer} %{QS:agent} \"(%{IP:x_forword}|%{GREEDYDATA:x_forword})\" (\[|)(%{URIHOST:upstream_host}|%{NOTSPACE:upstream_host}|-)(\]|) %{NUMBER:upstream_host_status} (%{WORD:upstream_cache_status}|-) %{QS:upstream_content_type} (%{NUMBER:upstream_response_time}|-) > %{NUMBER:request_time}" }
          }
-     date {
-         match => [ "timestamp" , "dd/MMM/YYYY:HH:mm:ss Z" ]
-     }
+         date {
+             match => [ "timestamp" , "dd/MMM/YYYY:HH:mm:ss Z" ]
+         }
 
-         mutate {update => {"[@metadata][target_index]" => "wikibit_ngx_access-%{+YYYY.MM}"}}
+         mutate {
+             update => {"[@metadata][target_index]" => "wikibit_ngx_access-%{+YYYY.MM}"}
+         }
      }
 }
 output {
@@ -189,7 +191,7 @@ output {
 
 - date：将日志中的时间作为logstash处理的时间
 
-配置文件中还有以下这句判断：`if "hk1_server_ngx_access_log" in [tags]`
+配置文件中还有以下这句判断：`if "wikibit_ngx_access" in [tags]`
 
 因为各种各样的日志都通过logstash分析，所以在filebeat添加了自定义tags以便区分不同的log：
 
