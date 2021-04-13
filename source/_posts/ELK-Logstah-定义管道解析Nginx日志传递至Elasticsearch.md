@@ -1,4 +1,3 @@
----
 title: ELK-Logstah 定义管道解析Nginx日志传递至Elasticsearch
 author: 饼铛
 cover: /images/img-156.png
@@ -6,9 +5,10 @@ tags:
   - ELK
   - Logstash
   - Nginx
-categories: []
+categories:
+  - Web集群
 abbrlink: 47eea66c
-date: 2021-04-12 17:55:00
+date: 2021-04-12 09:55:00
 ---
 通过filebeat读取日志后传送至logstash进行处理，处理完成再保存在elasticsearch中。其中最重要的一步就是logstash的处理，我们需要根据日志的格式编写相关的匹配代码，以便logstash进行匹配处理。
 
