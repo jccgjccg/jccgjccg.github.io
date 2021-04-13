@@ -1,12 +1,12 @@
----
 title: ELK-Filebeat7.4.0单机多实例
 author: 饼铛
 cover: /images/img-156.png
 tags:
-  - ELK
   - Web集群
+  - ELK
 abbrlink: 131c756
-date: 2020-06-12 16:22:34
+categories: []
+date: 2020-06-12 08:22:00
 ---
 ## 1.起因
 业务需求，已经转成json格式的nginx日志直接通过filebeat传入了Elasticsearch中，而其他程序日志需要通过filebeat传入logstash进行二次过滤。就需要解决多output的问题。而根据[官方文档](https://www.elastic.co/guide/en/beats/filebeat/7.x/configuring-output.html):
