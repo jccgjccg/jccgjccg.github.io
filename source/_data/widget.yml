@@ -3,4 +3,4 @@
   name: 访客地图
   icon: fas fa-heartbeat
   order:
-  html: '<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=2d78ad&w=a&t=tt&d=shvG9MLRc5o60RlhdKzF09ZHpX9VZQml6Bg50N_JpCc&co=ffffff"></script>'
+  html: '<a style="pointer-events: none;" title="Visit tracker"><img src="//clustrmaps.com/map_v2.png?cl=2d78ad&w=300&t=tt&d=shvG9MLRc5o60RlhdKzF09ZHpX9VZQml6Bg50N_JpCc&co=ffffff&ct=2d78ad" /></a>'
