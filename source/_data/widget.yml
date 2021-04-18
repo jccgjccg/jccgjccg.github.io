@@ -1,6 +1,0 @@
-- class_name: user-map
-  id_name: user-map
-  name: 访客地图
-  icon: fas fa-heartbeat
-  order:
-  html: '<a style="pointer-events: none;" title="Visit tracker"><img src="https://clustrmaps.com/map_v2.png?cl=2d78ad&w=300&t=tt&d=shvG9MLRc5o60RlhdKzF09ZHpX9VZQml6Bg50N_JpCc&co=ffffff&ct=2d78ad" /></a>'
