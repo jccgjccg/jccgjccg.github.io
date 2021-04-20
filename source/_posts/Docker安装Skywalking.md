@@ -57,7 +57,7 @@ b4eaf1c3054e
 4、运行skywalking-ui容器
 运行容器命令：
 ```bash
-docker run -d --name skywalking-ui --restart=always 
+docker run -d --name skywalking-ui --restart=always \
 -e TZ=Asia/Shanghai \
 -p 8080:8080 \
 -e SW_OAP_ADDRESS=192.168.1.55:12800 \
